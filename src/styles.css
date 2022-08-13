@@ -1,0 +1,165 @@
+.main-container {
+  display: flex;
+  padding: 0px 30px 0px 0px;
+}
+
+.main-container-left {
+  width: 30%;
+}
+
+.main-container-right {
+  width: 70%;
+}
+
+.form-container {
+  background-color: #F6F6F6;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.form-container-header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-container-header p {
+  font-size: 28px;
+}
+
+.form-body-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-header-title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.download-pdf-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  border: 1px solid #D1D1D1;
+  line-height: 21px;
+  width: 256px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.download-icon {
+  width: 30px;
+}
+
+.back-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-color: #E4E4E4;
+}
+
+.form-body-content {
+  display: flex;
+}
+
+.first-six-inputs {
+  gap: 26px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.first-six-inputs input {
+  flex: 28%;
+  /* or - flex: 0 50% - or - flex-basis: 50% - */
+  /*demo*/
+}
+
+.first-six-inputs .radio-group-container {
+  flex: 28%;
+}
+
+.last-two-inputs {
+  width: 33%;
+  margin-left: 26px;
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-group-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 18px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+input[type="text"] {
+  outline: none;
+  border: none;
+  padding: 10px;
+  height: 60px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 1px solid #D9D9D9;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: end;
+  gap: 14px;
+  margin-top: 42px;
+}
+
+.form-button {
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 20px 35px 20px 35px;
+  border-radius: 6px;
+  font-size: 17px;
+}
+
+.main-sidebar ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+@media screen and (max-width: 712px) {
+  .main-container-left {
+    display: none;
+  }
+
+  .main-container-right {
+    width: 100%;
+  }
+
+  .main-container {
+    padding: 0px;
+  }
+
+  .form-buttons {
+    flex-wrap: wrap;
+  }
+
+  .form-button {
+    width: 100%;
+  }
+}
