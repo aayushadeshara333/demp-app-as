@@ -78,6 +78,9 @@
 
 .first-six-inputs input {
   flex: 28%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
   /* or - flex: 0 50% - or - flex-basis: 50% - */
   /*demo*/
 }
@@ -132,6 +135,7 @@ input[type="text"] {
   padding: 20px 35px 20px 35px;
   border-radius: 6px;
   font-size: 17px;
+  cursor: pointer;
 }
 
 .main-sidebar ul li {

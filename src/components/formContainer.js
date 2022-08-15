@@ -31,11 +31,11 @@ const FormContainer = () => {
           <hr />
           <div className="form-body-content">
             <div className="first-six-inputs">
-              <input type="text" placeholder="First Name" />
-              <input type="text" placeholder="First Name" />
-              <input type="text" placeholder="First Name" />
-              <input type="text" placeholder="First Name" />
-              <input type="text" placeholder="First Name" />
+              <input type="text" placeholder="Patient's First Name" />
+              <input type="text" placeholder="Patient's Last Name" />
+              <input type="text" placeholder="Patient's DOB" />
+              <input type="text" placeholder="Patient's Weight" />
+              <input type="text" placeholder="Patient's Height" />
               <div className="radio-group-container">
                 <div>
                   Select Patient’s Gender
@@ -55,8 +55,8 @@ const FormContainer = () => {
                   </div>
                 </div>
               </div>
-              <input type="text" placeholder="First Name" />
-              <input type="text" placeholder="First Name" />
+              <input type="text" placeholder="Patient's Age" />
+              <input type="text" placeholder="Patient's Health Card" />
             </div>
             {/* <div className="last-two-inputs">
               <input type="text" placeholder="First Name" />
